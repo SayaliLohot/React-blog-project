@@ -1,0 +1,11 @@
+
+.TopPoster__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.TopPoster__small{
+  display: flex;
+  flex-direction: column;
+}
