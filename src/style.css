@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
 height: 100%;
-/* background-color: rgb(77, 153, 153); */
-/* color: cornsilk; */
+width: 100%;
 background: linear-gradient(pink,rgb(77, 153, 153)) no-repeat;
 }
 
@@ -17,9 +17,7 @@ background: linear-gradient(pink,rgb(77, 153, 153)) no-repeat;
     flex-direction: row;
     justify-content: space-around;
     font-weight: 600;
-    
-/* background-color: rgb(238, 225, 225); */
-}
+    }
 .left_Side_Of_Category{
     /* border: 1px solid black; */
     width: 60%;
@@ -34,8 +32,10 @@ background: linear-gradient(pink,rgb(77, 153, 153)) no-repeat;
     /* flex-direction: column; */
   width: 30%;
   height: max-content;
-  
 }
+/* .right_Side_Of_Category div:first-child{
+    width: 60%;
+} */
 img{
     border-radius: 4%;
 }
@@ -58,6 +58,10 @@ img{
 .top_news_div{
     text-align: center;
 }
+/* .top_news_div:first-child{
+    width: 100%;
+ 
+} */
 .top_news_div:hover{
     background-color:rgb(226, 145, 145);
     box-shadow: 10px 10px 30px ;
@@ -103,4 +107,78 @@ font-family: 'Shantell Sans', cursive;
 }
 .article_description{
     font-weight: 500;
+}
+.article_more_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    font-weight: 500;
+
+}
+.moreh2{
+    text-align: center;
+    background-color: azure;
+    margin: 1rem 20rem;
+}
+@media only screen and (max-width: 1000px){
+    .Category_div{
+        /* margin: 2rem;
+        padding: 1rem; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         font-weight: 600;
+        }
+    .left_Side_Of_Category{
+        width: 80%;
+    }
+    .right_Side_Of_Category{
+      width: 80%;
+
+      
+    }
+
+    .child_data_left_Side_Of_Category{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 2rem; */
+    
+    }
+
+    .Advertisement{
+        height: 50vh;
+          margin-top: 100px;
+        width:100%
+    }
+    .description_div{
+    margin: 2rem auto;
+   }
+    .article_div{
+        width: 80%;
+    }
+    .article_img{
+        margin: 1rem auto;
+        width: max-content;
+    }
+    .article_img img {
+        width:300px;
+        height: 300px;
+    }
+    .article_more_div{
+        display: flex;
+        flex-direction: column;    
+    }
+    .moreh2{
+        margin: 1rem 8rem;
+
+    }    
+
 }

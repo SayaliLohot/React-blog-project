@@ -21,7 +21,7 @@ function Technology() {
           <div>
             <Link
                 to={`/article/${value.id}`}>
-            <img src={value.Image} width={300} height={300}/></Link>
+            <img src={value.Image} width={300} height={300} alt={"image not found"}/></Link>
             </div>
             <div className='description_div'>
               <p className='bolly_title'>{value.title}</p>
@@ -47,7 +47,7 @@ function Technology() {
           <div className='top_news_div'>
           <div>
               <Link to={`/article/${value.id}`}>
-            <img src={value.Image} width={150} height={150}/></Link>
+            <img src={value.Image} width={150} height={150} alt={"image not found"}/></Link>
             </div>
 
 

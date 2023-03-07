@@ -64,6 +64,7 @@ const Details = (props) => {
     "title": "Kiara Advani adds her elegant touch to Slice’s new ad as she becomes the new face of the brand",
     "Image": "https://media5.bollywoodhungama.in/wp-content/uploads/2023/03/Kiara-Feature.jpg",
     "category": "Bollywood-Top",
+    "subcat":"Bollywood",
     "description":"Bollywood actress Kiara Advani is one superstar who is ticking all the right boxes on the rise of her stardom. From consecutive streak of successful films to peaking with popularity on the internet, and signing a long list of brands, the girl with a golden touch is leaving no stone unturned. Adding to the list, the actor has been roped in as the new face of Slice."
   },
   {
@@ -85,6 +86,8 @@ const Details = (props) => {
     "title": "Suniel Shetty on Hera Pheri 4, “Like all good things, this one took some time”..",
     "Image": "https://stat4.bollywoodhungama.in/wp-content/uploads/2023/02/Hera-Pheri-3.jpg",
     "category": "Bollywood-Top",
+    "subcat":"Bollywood",
+
     "description":"After literally waiting for years, the official announcement of the third film in the Hera Pheri franchise happened last month. The film will see the return of the famous trio of Akshay Kumar, Suniel Shetty and Paresh Rawal in the roles of the iconic characters Raju, Ghanshyam aka Shyam and Baburao Ganpatrao Apte respectively. Shetty has penned a long note expressing his happiness on the green signal for the third film in the series, which is called Hera Pheri 4."
   },
   {
@@ -99,6 +102,8 @@ const Details = (props) => {
     "title": "Mrs. Chatterjee Vs Norway song ‘Shubho Shubho’ out: This feel-good track starring Rani Mukerji encapsulates a variety of emotions, watch",
     "Image": "https://stat4.bollywoodhungama.in/wp-content/uploads/2023/03/Mrs_Chatterjee_Vs_Norway_First_Track_Out.jpeg",
     "category": "Bollywood-Top",
+    "subcat":"Bollywood",
+
     "description":"The trailer of Rani Mukerji’s Mrs. Chatterjee Vs Norway hit the internet just a few days back that moved the audiences. The makers drop their first song - ‘Shubho Shubho,’ a glimpse of which we saw in the much-loved trailer. A word that symbolises the ultimate translation of pure intentions and good wishes, a word that every Indian would have at least heard of, if not known. Shubho signifies auspiciousness, in everything."
   },
   {
@@ -125,21 +130,20 @@ const Details = (props) => {
   {
     "id": 16,
     "title": "China Brings Sci-Fi Nightmares to Reality! Creates a Dangerous Robot    ",
-    "Image":"https://www.analyticsinsight.net/wp-content/uploads/2022/10/China-Brings-Sci-Fi-Nightmares-to-Reality-Creates-a-Dangerous-Robot.jpg",
+    "Image":"https://builtin.com/cdn-cgi/image/f=auto,quality=80,width=752,height=435/https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2022-08/headshots-humanoid-robotics.png",
     "category": "Technology",
     "description":"A video showing a Chinese-made drone carrying a dangerous robot has begun to circulate on social media, and it appears to be a scene from a futuristic war film. As seen in the viral video that a four-legged robot was dropped by a drone that carried a huge gun around.Although it’s not immediately clear whether the video was shot as part of a Chinese military practice or more likely as an attempt to demonstrate how the pairing will work, even without that information, the scene may provide a glimpse of the robot technology that could be used on future battlefields. China creates a dangerous robot, the one-minute video was first published on the Chinese microblogging site Weibo by a user who was either connected to or standing in for the regional defense business that, according to reports, produces the drone being used to launch the robot weapon, a robodog."
   },
   {
     "id": 17,
     "title": "How AI Helps Track Contagious Coronavirus Outbreak? ",
-    "Image":"https://www.analyticsinsight.net/wp-content/uploads/2020/03/Picture1.jpg",
-    "category": "Technology-Top",
+    "Image":"https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs41205-020-00064-7/MediaObjects/41205_2020_64_Fig1_HTML.png?as=webp",
     "description":"The novel coronavirus is spreading across the whole world. The outbreak has victimized a number of people. As fast as the COVID-19 virus is spreading, doctors, scientists, and researchers are making great efforts to discover preventive and curing measures. A team headquartered at Boston Children’s Hospital is implementing machine learning to scour through social posts, news reports, data from official public health channels and information supplied by doctors for warning signs that the virus is taking hold in locations outside of China. “There’s incredible data that’s locked away in various tools like online news sites, social media, crowdsourcing, data sources, that you wouldn’t think of that would be used for public health,” said Dr. John Brownstein, chief innovation officer at Boston Children’s Hospital. “But actually they have incredible amounts of information that you wouldn’t find in any sort of traditional government system.” While others in Australian region are using predictive analytics, a branch of artificial intelligence (AI), to forecast how many confirmed COVID-19 cases and deaths can be expected in the near future. According to this, by March 13, the virus death toll will have climbed to 3,913, and confirmed cases will reach 116,250 worldwide, based on data available up to March 5. To develop contingency plans and hopefully head off the worst effects of the coronavirus, governments need to be able to anticipate the future course of the outbreak. This is where predictive analytics could prove invaluable. "
   },
   {
     "id": 18,
     "title": "How 3D Printing Companies Are Tackling the COVID-19 Pandemic?    ",
-    "Image":"https://www.analyticsinsight.net/wp-content/uploads/2020/04/3d.png",
+    "Image":"https://www.futuremedicine.com/cms/10.2217/3dp-2020-0028/asset/images/medium/figure1.gif",
     "category": "Technology",
     "description":"Coronavirus caused COVID-19 pandemic is the worst terrifying episode of mankind’s reign on Earth to date. Not only it has claimed over a hundred thousand lives in its wake, but it has also given many sleepless nights to medical and research professionals across the globe. However, technological advancements occur in the apex of crisis times. Like submarine (U-boats), computers, man’s first step on the moon, etc. have been fruits of war rivalry or race to be labeled as the best of nations. But this is a different battle human civilization is caught up with. With several fields of modern science and computing trying to up the game, there are many unsung heroes too. 3D-printing is such a noble name. 3D printing is viewed as a stopgap solution in this time of crisis of lack of medical equipment shortages. Hospitals and government are turning to industries to come up with innovative ways of resolving this pandemic induced emergency. Automaker legend Volkswagen is using 3D printing to produce face shield components. This aid comes under a joint transnational initiative by Airbus and the 3D printing network, “Mobility goes Additive”. This collaboration includes about 25 companies. And it will send the necessary components to Spain. ŠKODA has developed a 3D printing process to produce reusable FFP3 respirators. Tech giant HP is employing its 3D printing expertise by turning its research-and-development centers in Spain and the United States into factories to manufacture urgent personal protective equipment (P.P.E.). "
   },
@@ -148,19 +152,21 @@ const Details = (props) => {
     "title": "Significant Implications of Google CEO Sundar Pichai Heading Alphabet",
     "Image":"https://www.analyticsinsight.net/wp-content/uploads/2019/12/Sundar-Pichai-Google.jpg",
     "category": "Technology-Top",
+    "subcat":"Technology",
+
     "description":"Recently, Google’s CEO Sundar Pichai has replaced Larry Page and Sergey Brin from Alphabet Inc. The latter serves as a parent company to Google. Both the founders have taken a retreat from their active management from the company after 21 years. In a blog that published on Tuesday, Page and Brin quoted, “While it has been a tremendous privilege to be deeply involved in the day-to-day management of the company for so long, we believe it’s time to assume the role of proud parents offering advice and love, but not daily nagging!” It will be interesting to see how Pichai will lead Alphabet which owns over a dozen companies including self-driving car technology business Waymo and health care software company Verily. However, all three leaders have expressed their keenness towards developing and advancing AI software to enhance web searching and other tasks. The new CEO, over time, has made significant efforts in making such technologies globally available. Amid this, as per the investors, streamlining management could also help Alphabet better address challenges and put more focus on growing profits. As this announcement has taken the industry by a boom, here are the few implications and analysis of this leadership shift, suggested by experts – Casey Newton, Silicon Valley Editor and Dieter Bohn, Executive Editor for The Verge and Shira Ovide, former Wall Street Journal reporter. "
   },
   {
     "id": 20,
     "title": "Data Analytics will Drive the Growth of IoT",
-    "Image":"https://www.analyticsinsight.net/wp-content/uploads/2019/12/Data-Analytics-will-Drive-the-Growth-of-IoT.jpg",
+    "Image":"https://www.zdnet.com/a/img/resize/fe3cd4335dd088e466578422640b646f641609ec/2020/09/28/6b225a1a-381a-4ceb-b13c-d2d314d41bd7/what-is-the-iot-everything-you-need-to-k-5f6cc13d5f60de4b41b7f3d4-1-sep-28-2020-16-19-38-poster.jpg?auto=webp&fit=crop&height=675&width=1200",
     "category": "Technology",
     "description":"IoT and data remain naturally connected together. Data consumed and created continues developing at an ever-increasing rate. This convergence of data is energizing widespread IoT adoption as there will be almost 30.73 billion IoT connected gadgets by 2020. The Internet of Things (IoT) is an interconnection of a few gadgets, networks, technologies, and HR to accomplish a common objective. There are a variety of IoT-based applications being utilized in various segments and have succeeded with regards to giving gigantic advantages to the users. The ability to present data in an absorbable and important manner is the thing that makes an IoT solution alluring to customers. Anybody can print datasets on a page and hand them off, yet it would require significant investment and time on the user’s end to filter through that data physically and shape it into something they can work with. Data analytics provides clients with the ability to effortlessly get on trends or patterns within the data gathered by their device. The insight given by the data analysis guarantees a user is well furnished with the knowledge expected to settle on effective business or personal product decisions with confidence."
   },
   {
     "id": 21,
     "title": "Max Healthcare Improves Efficiency with UiPath Robots",
-    "Image":"https://www.analyticsinsight.net/wp-content/uploads/2019/12/UIPath1.png",
+    "Image":"https://blog.hettshow.co.uk/hs-fs/hubfs/SAP%20-%20Sponsored%20Content%20-%20Tablet%20lock-up.png?width=200&name=SAP%20-%20Sponsored%20Content%20-%20Tablet%20lock-up.png",
     "category": "Technology-Top",
     "description":"Max Healthcare was facing challenges in processing large volumes of patient transactions while ensuring the accuracy and security of documents. They adopted the UiPath Enterprise RPA Platform to streamline high volume processes like claims processing, data entry, and reconciliation for government healthcare schemes. Being one of the largest hospital networks in North India, Max Healthcare deals with a lot of patient transaction data that needs to be processed on a daily basis. From recording customer details to claims processing and reconciliation of data for government health schemes, everything needs a high level of accuracy and efficiency. Manually processing such large volumes of information is not just time consuming but can also be prone to a lot of errors and security issues. Max Healthcare decided to use the UiPath Enterprise RPA platform to be able to handle this data more efficiently. RPA (Robotic Process Automation has not just ensured a massive reduction in turnaround time (TAT) in current processes but has also paved the path for the organization to move faster on its digital transformation journey. “We deal with so much data here in our system, you know, every patient may probably have hundreds of interactions or episodes within a day. "
   },
@@ -169,6 +175,8 @@ const Details = (props) => {
     "title": "How do Data Engineers Control Big Data?    ",
     "Image":"https://www.analyticsinsight.net/wp-content/uploads/2023/03/How-data-engineers-control-Big-Data.jpg",
     "category": "Technology-Top",
+    "subcat":"Technology",
+
     "description":"Data engineers are critical in managing and processing large amounts of data. They are in charge of designing, constructing, and maintaining the infrastructure and tools required to effectively manage and process large amounts of data. This entails collaborating closely with data analysts and data scientists to ensure that big data is efficiently stored, processed, and analyzed to generate insights that inform decision-making. In this article, we have given insight into how data engineers control big data, maintain the systems and implement data security measures. Read to know more.    "
   },
   {
@@ -183,6 +191,8 @@ const Details = (props) => {
     "title": "Quantum Computing Will Soon Takeover the Tech-Sphere Leading the Digital Era    ",
     "Image":"https://www.analyticsinsight.net/wp-content/uploads/2021/09/Quantum-Computing.jpg",
     "category": "Technology-Top",
+    "subcat":"Technology",
+
     "description":"The word “quantum” gained momentum in the late twentieth century as a descriptor i.e., something so huge that it defied the normal adjectives. For instance, a “quantum leap” is an emotional headway with lots of drama in it. Now, at the point when “quantum” is applied to “computing,” nonetheless, we are without a doubt entering a time of emotional progression with dramatic advancement. Quantum computing is an innovation that is dependent on the standards and principles of quantum theory, which clarifies the idea of energy and matter on the atomic and subatomic levels. It depends on the presence of mind-bending quantum-mechanical phenomena, like superposition and entanglement. Erwin Schrödinger’s popular 1930’s psychological experiment including a cat that was both dead and alive simultaneously was expected to feature the evident idiocy of superposition, the rule that quantum frameworks can exist in various states at the same time until noticed or estimated. Today, quantum computers contain many qubits (quantum bits), which exploit that very rule. Each qubit exists in a superposition of zero and one (for example has non-zero probabilities to be a zero or a one) until estimated."
   },
 
@@ -212,6 +222,8 @@ const Details = (props) => {
     "title": "Power your paddle sports",
     "Image":"https://domf5oio6qrcr.cloudfront.net/medialibrary/12577/320556aa-870b-4186-8366-49e0a3b4f290.jpg",
     "category": "Fitness",
+    "subcat":"Fitness",
+
     "description":"Paddling a kayak, canoe, or paddleboard relies on muscles that we likely haven’t used much during winter,says Kathleen Salas, a physical therapist with Spaulding Adaptive Sports Centers at Harvard-affiliated Spaulding Rehabilitation Network.Even if you regularly weight train, the continuous and repetitive motions involved in paddling require endurance and control of specific muscles that need to be properly stretched and strengthened.    "
   },
   {
@@ -233,6 +245,8 @@ const Details = (props) => {
     "title": "Shift work can harm sleep and health: What helps?",
     "Image":"https://domf5oio6qrcr.cloudfront.net/medialibrary/13612/9fbd722e-c7b8-4512-a70c-8a893b1f2ce8.jpg",
     "category": "Fitness-Top",
+    "subcat":"Fitness",
+
     "description":"Mounting evidence, including several new studies, paints a worrisome picture of the potential health fallout of nontraditional shift work schedules that affect 15% to 30% of workers in the US and Europe, including factory and warehouse workers, police officers, nurses, and other first responders.So-called shift work disorder mainly strikes people who work the overnight or early morning shift, or who rotate their shifts, says Eric Zhou, an assistant professor in the Division of Sleep Medicine at Harvard Medical School. "
   },
   {
@@ -247,6 +261,8 @@ const Details = (props) => {
     "title": "Do activity trackers make us exercise more?    ",
     "Image":"http://content.health.harvard.edu/wp-content/uploads/2022/10/5d89bf97-d734-402c-9caa-65c57378bedf.jpg",
     "category": "Fitness-Top",
+    "subcat":"Fitness",
+
     "description":"Activity trackers can do more than ever before. They can measure your heart rate, heart rhythm, blood oxygen levels, calories burned, and the number of minutes you spend exercising or sleeping. They can talk to your smartphone or smart gym machines and connect you to workout videos, recipes, or guided meditation. Do trackers get you to move more? Studies of this question have been mixed. "
   },
   {
@@ -275,6 +291,8 @@ const Details = (props) => {
     "title": "Viral Blue Ginger is driving the internet nuts: This is what it is actually    ",
     "Image":"https://pbs.twimg.com/media/Fpf8I5JaIAIhJoK?format=jpg&name=small",
     "category": "Food-Top",
+    "subcat":"Food",
+
     "description":"Viral Blue Ginger is driving the internet nuts: This is what it is actually Ginger is a medicinal spice that has many health benefits. From treating coughs to boosting digestion, it is helpful in many ways. While we all associate ginger with brown or golden tones, the internet is currently going gaga over blue-colored ginger. Yes, you read it right! We are talking about blue ginger. Angellica Aribam, a political activist, recently posted about deep blue ginger on Twitter, and the tweet has taken the internet by storm."
   },
  
@@ -290,6 +308,8 @@ const Details = (props) => {
     "title": "Food Trends for 2023: Sustainable Plant-Forward Diets, Foods for Sleep & Healthy Snacks    ",
     "Image":"https://images.news18.com/ibnlive/uploads/2023/02/shutterstock_291921743-16768231583x2.jpg?impolicy=website&width=510&height=356",
     "category": "Food-Top",
+    "subcat":"Food",
+
     "description":"Food trends for 2023 predict that people will be making responsible food choices, keeping their own and the planet’s wellbeing in mind. It is expected that foods that are sustainable and functional, targeting specific health conditions will find favour with food aficionados and conscious eaters alike. Prakriti Poddar, Global Head, Mental Health and Wellbeing, RoundGlass, explains, “Global food trends for 2023 are closely aligned to mental wellbeing and health. The focus is on marrying scientific knowledge to indigenous wisdom in food to achieve harmony between eating and overall wellness."
   },
   {
@@ -297,6 +317,8 @@ const Details = (props) => {
     "title": "Replace Your Lunch With These Quick Salad Recipes For Weight Loss    ",
     "Image":"https://images.news18.com/ibnlive/uploads/2023/02/ketogenic-low-carbs-diet-food-selection-white-wall-16769158063x2.jpg?impolicy=website&width=510&height=356",
     "category": "Food-Top",
+    "subcat":"Food",
+
     "description":"If you are following a weight loss routine, all salads may not be suitable for you as many of them could be loaded with unhealthy toppings and dressings. However, there are plenty of quick and healthy salad options which are both nutritious and satisfying. Whether you’re looking for a vegan, vegetarian, or high-protein option the choices are many. So, grab your favorite salad bowl and get ready to create a tasty and healthy lunch.    "
   },
   {
@@ -369,6 +391,8 @@ const Details = (props) => {
     "title": "Black Panther: Wakanda Forever",
     "Image": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg",
     "category": "Hollywood",
+    "subcat":"Hollywood",
+
     "Release":"11 Nov, 2022",
     "rating": "4.7/5",
     "description": "Story: With King T'Challa's death (Chadwick Boseman), Wakanda is deemed attainable by external forces that envy and fear its resources (metal Vibranium). Can Queen Ramonda (Angela Bassett) and daughter Shuri (Letitia Wright), defend their kingdom in the absence of its benevolent king — the mighty Black Panther?"
@@ -387,6 +411,8 @@ const Details = (props) => {
     "title": "The Banshees Of Inisherin",
     "Image": "https://timesofindia.indiatimes.com/photo/96194882.cms",
     "category": "Hollywood",
+    "subcat":"Hollywood",
+
     "Release":" Dec 15, 2022",
     "rating": "4/5",
     "description": "Story: Padraic and Colm, both middle-aged bachelors, have been lifelong friends, but when Colm suddenly decides to end the relationship in order to devote more time to activities for which he will be known, Padraic finds it incredibly difficult to honour Colm's choice. When Padraic makes multiple attempts to rekindle the relationship, things take an ugly turn with serious repercussions.    "
@@ -405,6 +431,8 @@ const Details = (props) => {
     "title": "Sidney",
     "Image": "https://timesofindia.indiatimes.com/photo/94429136.cms",
     "category": "Hollywood",
+    "subcat":"Hollywood",
+
     "Release":"23 Sep, 2022",
     "rating": "3.3/5",
     "description": "Story: ‘Sidney’ tells the story of iconic Hollywood star Sidney Poitier and pays glowing tribute to the first black star to win an Academy Award. The documentary traces his journey from his extremely humble origins in the Bahamas to reaching the pinnacle of stardom in Hollywood.    "
@@ -442,14 +470,35 @@ const Details = (props) => {
     "Image": "https://static.toiimg.com/photo/98385359.cms",
     "category": "Hollywood-Top",
     "description": "Hollywood star Tom Cruise recently helicoptered onto a US aircraft carrier off the eastern coast of Italy to film sequences for his upcoming film 'Mission: Impossible - Dead Reckoning Part Two', confirmed the chairman of the Apulia Film Commission., reported, a USA-based news outlet."
-  }, {
+  },
+   {
     "id": 60,
     "title": "Trailer of Disney's Peter Pan & Wendy sparks inclusivity debate as Yara Shahidi, Alexander Molony and Jude Law star in the remake    ",
     "Image": "https://static.toiimg.com/photo/98360525.cms",
     "category": "Hollywood-Top",
     "description": "The trailer for Disney’s remake of an old classic, Peter Pan & Wendy is out with netizens loving the all-inclusive look of diversity in the trailer. Yara Shahidi plays Tinker Bell in this remake, with Alexander Molony playing Peter Pan. The role of the evil Hook has gone to Jude Law. The first Peter Pan film was the animated classic made back in 1953.    "
   },
-
+  {
+    "id": 61,
+    "title": "These 5 floating bridges ought to give you an experience of a lifetime    ",
+    "Image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202302/untitled_design_-_2023-02-03t181212.090-sixteen_nine.png?VersionId=i3yQs9OVuZZzZvIz1eeRp506Dn9CNUh1&size=690:388",
+    "category": "Fort",
+    "description": "By Daphne Clarance: How would it feel if you were driving on a road floating in the middle of a water body? A bit scary yet exhilarating, right? Among many man-made structures in the world, some of the most fascinating ones have to be floating bridges.While bridges are constructed to connect to landmasses separated by a large water body, floating bridges, also called pontoon bridges, were used as temporary structures during wartime and civil emergencies."
+  },
+  {
+    "id": 62,
+    "title": "Himachal Pradesh boasts of world's best Paragliding site at Bir-Billing, Manali",
+    "Image": "https://www.hindustantimes.com/ht-img/img/2023/03/05/550x309/A-tourist-enjoying-paragliding-in-Manali-on-Wednes_1677987836956_1677987837147_1677987837147.jpg",
+    "category": "Fort",
+    "description": "Paragliding site at Bir-Billing in Kangra has hosted many international competitions and the pre-world cup paragliding championships. Besides, Himachal Pradesh has other Paragliding sites at Bandla Dhar in district Bilaspur and Solang near Manali"
+  },
+  {
+    "id": 63,
+    "title": "6 picturesque road trip destinations for travelholics",
+    "Image": "https://www.hindustantimes.com/ht-img/img/2023/03/04/550x309/jytre_1677933583519_1677933613856_1677933613856.jpg",
+    "category": "Fort",
+    "description": "Are you a travelholic looking for an exciting road trip? Look no further! From stunning mountain views to serene coastlines, these six picturesque road trip destinations are sure to provide you with the perfect getaway."
+  }
   ]);
   return (
     <div>
