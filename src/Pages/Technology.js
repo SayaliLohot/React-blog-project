@@ -14,8 +14,8 @@ function Technology() {
         {
         details.filter((val)=>{
           return val.category === 'Technology' 
-        }).map((value)=>(
-          <>
+        }).map((value, index)=>(
+          <div key={index}>
           <div className='child_data_left_Side_Of_Category'>
 
           <div>
@@ -31,7 +31,7 @@ function Technology() {
           </div>
           <hr/>
 
-          </>
+          </div>
         ))
         }
       </div>
@@ -42,8 +42,8 @@ function Technology() {
         {
         details.filter((val)=>{
           return val.category === 'Technology-Top' 
-        }).map((value)=>(
-          <>
+        }).map((value,index)=>(
+          <div key={index}>
           <div className='top_news_div'>
           <div>
               <Link to={`/article/${value.id}`}>
@@ -57,7 +57,7 @@ function Technology() {
           </div>
           <hr className='topnews_hr'/>
 
-          </>
+          </div>
         ))
         }
       </div>

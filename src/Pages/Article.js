@@ -22,8 +22,8 @@ function Article() {
     <div>
  
      {
-      Details.filter((val)=> val.id === Id).map((value)=>(
-        <>
+      Details.filter((val)=> val.id === Id).map((value,index)=>(
+        <div key={index}>
         <div className='article_div'>
         <h1>{value.title}</h1>
 
@@ -38,15 +38,15 @@ function Article() {
         </div>
 
         </div>
-        </>
+        </div>
       ))
      }
      <h2 className='moreh2'>More....</h2>
     <div className='article_more_div'>
       {
-        Details.filter((val)=> val.id !== Id && val.category ===newCategory).slice(0,3).map((value)=>
+        Details.filter((val)=> val.id !== Id && val.category ===newCategory).slice(0,3).map((value,index)=>
         (
-          <>
+          <div key={index}>
           <div >
             <div>
             <Link
@@ -57,7 +57,7 @@ function Article() {
             <p>{value.description.slice(0,120)}...</p>
             </div>
           </div>
-          </>
+          </div>
         ))
       }
     </div>

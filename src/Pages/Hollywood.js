@@ -15,8 +15,8 @@ function Hollywood() {
         {
         details.filter((val)=>{
           return val.category === 'Hollywood' 
-        }).map((value)=>(
-          <>
+        }).map((value, index)=>(
+          <div key={index}>
           <div className='child_data_left_Side_Of_Category'>
             
           <div>
@@ -37,7 +37,7 @@ function Hollywood() {
           </div>
           <hr/>
 
-          </>
+          </div>
         ))
         }
       </div>
@@ -48,8 +48,8 @@ function Hollywood() {
         {
         details.filter((val)=>{
           return val.category === 'Hollywood-Top' 
-        }).map((value)=>(
-          <>
+        }).map((value,index)=>(
+          <div key={index}>
           <div className='top_news_div'>
 
           <div>
@@ -62,7 +62,7 @@ function Hollywood() {
             </div>
           </div>
           <hr className='topnews_hr'/>
-          </>
+          </div>
         ))
         }
       </div>

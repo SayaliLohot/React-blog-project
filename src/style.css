@@ -7,7 +7,8 @@
 body{
 height: 100%;
 width: 100%;
-background: linear-gradient(pink,rgb(77, 153, 153)) no-repeat;
+/* background: linear-gradient(pink,rgb(77, 153, 153)) no-repeat; */
+background-color: rgb(217, 231, 231);
 }
 
 .Category_div{
@@ -47,23 +48,30 @@ img{
 .child_data_left_Side_Of_Category{
     display: flex;
     align-items: center;
+    border-radius: 10px;
+
     /* padding: 2rem; */
+    transition: background-color 1s;
 
 }
 .child_data_left_Side_Of_Category:hover{
-    background: rgb(226, 145, 145);
+    /* background: rgb(172, 167, 167); */
+    background-color:blanchedalmond;
     box-shadow: 10px 10px 30px ;
 }
 
 .top_news_div{
+    border-radius: 10px;
     text-align: center;
+    transition: background-color 1s;
+
 }
 /* .top_news_div:first-child{
     width: 100%;
  
 } */
 .top_news_div:hover{
-    background-color:rgb(226, 145, 145);
+    background-color:blanchedalmond;
     box-shadow: 10px 10px 30px ;
 
     }
@@ -72,7 +80,9 @@ img{
     /* background-color: blue; */
     height: 90vh;
     margin-top: 250px;
-}
+    background-image: url("https://newspaperads.ads2publish.com/wp-content/uploads/2019/07/bigbasket-month-end-bigsavers-ad-times-of-india-chennai-29-06-2019-250x358.png") ;
+    background-repeat: no-repeat;
+   background-position: center;}
 .description_div{
 /* border: 1px solid red; */
 margin: 2rem;
@@ -113,7 +123,7 @@ font-family: 'Shantell Sans', cursive;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    background-color: grey;
+    background-color: rgb(231, 236, 236);
     width: 80%;
     margin: auto;
     padding: 1rem;
@@ -156,8 +166,13 @@ font-family: 'Shantell Sans', cursive;
     .Advertisement{
         height: 50vh;
           margin-top: 100px;
-        width:100%
+        width: 100%;
+
     }
+    /* .Advertisement img{
+        width: max-content;
+        height: max-content;
+    } */
     .description_div{
     margin: 2rem auto;
    }

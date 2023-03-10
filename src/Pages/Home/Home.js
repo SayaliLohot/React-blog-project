@@ -55,14 +55,14 @@ function Home() {
           .filter((val) => {
             return val.category === "Fort";
           })
-          .map((value) => (
-            <>
-              <div>
+          .map((value,index) => (
+            <div key={index}>
+              <div >
               <Link to={`/article/${value.id}`}>
                 <img src={value.Image} width={200} height={200} alt={"image not found"}/></Link>
                 <p>{value.title}</p>
               </div>
-            </>
+            </div>
           ))}
       </div>
 
@@ -73,14 +73,14 @@ function Home() {
           .filter((val) => {
             return val.subcat === "Bollywood";
           })
-          .map((value) => (
-            <>
-              <div>
+          .map((value,index) => (
+            <div key={index}>
+              <div >
               <Link to={`/article/${value.id}`}>
               <img src={value.Image} width={200} height={200} alt={"image not found"}/></Link>
                 <p>{value.title}</p>    
                          </div>
-            </>
+            </div>
           ))}
       </div>
 
@@ -92,9 +92,9 @@ function Home() {
             .filter((val) => {
               return val.subcat === "Hollywood";
             })
-            .map((value) => (
-              <>
-                <div className="Hollywood_latest">
+            .map((value,index) => (
+              <div key={index}>
+                <div className="Hollywood_latest" >
                 <Link to={`/article/${value.id}`}>
                 <img src={value.Image} width={200} height={200} alt={"image not found"}/></Link>
                 <p className="Hollywood_latest_p"> <span>{value.title}:</span>
@@ -102,7 +102,7 @@ function Home() {
                 <span>{value.description.slice(0,60)}</span> </p> 
                   {/* <p>{value.description.slice(1,150)}</p> */}
                 </div>
-              </>
+              </div>
             ))}
         </div>
 
@@ -119,15 +119,15 @@ function Home() {
           .filter((val) => {
             return val.subcat === "Fitness";
           })
-          .map((value) => (
-            <>
-              <div>
-              <Link to={`/article/${value.id}`}>
+          .map((value,index) => (
+            <div key={index}>
+              <div >
+              <Link to={`/article/${value.id}`} >
 
               <img src={value.Image} width={200} height={200} alt={"image not found"}/></Link>
                 <p>{value.title}</p>
               </div>
-            </>
+            </div>
           ))}
       </div >
 
@@ -138,15 +138,15 @@ function Home() {
           .filter((val) => {
             return val.subcat === "Food";
           })
-          .map((value) => (
-            <>
-              <div>
+          .map((value,index) => (
+            <div key={index}>
+              <div >
               <Link to={`/article/${value.id}`}>
               <img src={value.Image} width={200} height={200} alt={"image not found"} /></Link>
 
                 <p>{value.title}</p>
               </div>
-            </>
+            </div>
           ))}
       </div>
 
@@ -157,15 +157,15 @@ function Home() {
           .filter((val) => {
             return val.subcat === "Technology";
           })
-          .map((value) => (
-            <>
+          .map((value, index) => (
+            <div  key={index}>
               <div>
                 <Link to={`/article/${value.id}`}>
                 <img src={value.Image} width={200} height={200} alt={"image not found"}/></Link>
 
                 <p>{value.title}</p>
               </div>
-            </>
+            </div>
           ))}
       </div>
 

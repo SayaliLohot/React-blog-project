@@ -14,8 +14,8 @@ function Food() {
         {
         details.filter((val)=>{
           return val.category === 'Food' 
-        }).map((value)=>(
-          <>
+        }).map((value,index)=>(
+          <div key={index}>
           <div className='child_data_left_Side_Of_Category'>
             
           <div>
@@ -31,7 +31,7 @@ function Food() {
           </div>
           <hr/>
 
-          </>
+          </div>
         ))
         }
       </div>
@@ -42,8 +42,8 @@ function Food() {
         {
         details.filter((val)=>{
           return val.category === 'Food-Top' 
-        }).map((value)=>(
-          <>
+        }).map((value,index)=>(
+          <div key={index}>
           <div className='top_news_div'>
           <div>
               <Link to={`/article/${value.id}`}>
@@ -55,7 +55,7 @@ function Food() {
           </div>
           <hr className='topnews_hr'/>
 
-          </>
+          </div>
         ))
         }
       </div>

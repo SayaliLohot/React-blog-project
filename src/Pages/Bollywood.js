@@ -13,9 +13,9 @@ function Bollywood() {
         {
         details.filter((val)=>{
           return val.category === 'Bollywood' 
-        }).map((value)=>(
-          <>
-          <div key={value.id} className='child_data_left_Side_Of_Category'>
+        }).map((value,index)=>(
+          <div key={index} >
+          <div className='child_data_left_Side_Of_Category'>
             
             <div>
             <Link
@@ -37,7 +37,7 @@ function Bollywood() {
           </div>
           <hr/>
 
-          </>
+          </div>
         ))
         }
       </div>
@@ -48,9 +48,9 @@ function Bollywood() {
         {
         details.filter((val)=>{
           return val.category === 'Bollywood-Top' 
-        }).map((value)=>(
-          <>
-          <div key={value.id} className='top_news_div'>
+        }).map((value, index)=>(
+          <div key={index}  >
+          <div className='top_news_div'>
 
             <div >
               <Link to={`/article/${value.id}`}>
@@ -63,11 +63,13 @@ function Bollywood() {
           </div>
           <hr className='topnews_hr'/>
 
-          </>
+          </div>
         ))
         }
       </div>
-      <div className='Advertisement'>Advertisement</div>
+      <div className='Advertisement'>
+       Advertisement
+      </div>
       </div>
       </div>
     </div>
